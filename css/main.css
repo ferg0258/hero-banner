@@ -4,20 +4,31 @@ body {
 
 h1 {
   font-family: "Open Sans", sans-serif;
-  font-style: regular;
+  font-style: bold;
   font-size: 4rem;
-  color: 0, 0, 0, .5;
-  max-width: 50em;
+  background-color: rgba(0, 0, 0, .5);
+  color: #fff;
+  line-height: 6rem;
 }
 
 p{
   font-family: "Open Sans";
   font-style: italic;
   font-size: 2rem;
-  max-width: 50em;
 }
 
 .img-flex {
   width: 100%;
+}
+.banner {
+  position: relative;
+  overflow: hidden;
   max-height: 500px;
+}
+.content {
+  max-width: 50em;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
 }
