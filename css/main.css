@@ -39,9 +39,12 @@ p {
 }
 
 .content {
+  width: 100%;
   max-width: 50em;
   position: absolute;
   bottom: 0;
   left: 50%;
   transform: translateX(-50%);
+  padding-left: 16px;
+  padding-right: 16px;
 }
