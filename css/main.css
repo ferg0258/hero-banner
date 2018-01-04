@@ -1,14 +1,12 @@
-@-moz-viewport { width: device-width; scale: 1; }
-@-ms-viewport { width: device-width; scale: 1; }
-@-o-viewport { width: device-width; scale: 1; }
-@-webkit-viewport { width: device-width; scale: 1; }
-@viewport { width: device-width; scale: 1; }
 *, *::before, *::after {
   box-sizing: inherit;
 }
 
 html {
   margin: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+  padding: 0;
 }
 
 body {
@@ -16,7 +14,6 @@ body {
 }
 
 h2 {
-  font-family: "Open Sans", sans-serif;
   font-weight: bold;
   font-size: 4rem;
   background-color: rgba(0, 0, 0, .5);
@@ -26,7 +23,6 @@ h2 {
 }
 
 p {
-  font-family: "Open Sans";
   font-style: italic;
   font-size: 2rem;
 }
