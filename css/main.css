@@ -1,5 +1,5 @@
 body {
-  margin:0;
+  margin: 0;
 }
 
 h2 {
@@ -12,7 +12,7 @@ h2 {
   display: inline;
 }
 
-p{
+p {
   font-family: "Open Sans";
   font-style: italic;
   font-size: 2rem;
@@ -20,12 +20,15 @@ p{
 
 .img-flex {
   width: 100%;
+  display: block;
 }
+
 .banner {
   position: relative;
   overflow: hidden;
   max-height: 500px;
 }
+
 .content {
   max-width: 50em;
   position: absolute;
