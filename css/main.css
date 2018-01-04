@@ -25,6 +25,7 @@ h2 {
 p {
   font-style: italic;
   font-size: 2rem;
+  line-height: 1.5;
 }
 
 .img-flex {
